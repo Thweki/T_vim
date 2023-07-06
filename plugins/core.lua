@@ -1,6 +1,13 @@
 return {
   -- customize alpha options
   {
+    "rcarriga/nvim-notify",
+    opts = {
+      stages = "fade",
+      background_colour = "#000000",
+    },
+  },
+  {
     "goolord/alpha-nvim",
     opts = function(_, opts)
       -- customize the dashboard header

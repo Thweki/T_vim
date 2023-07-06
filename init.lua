@@ -18,13 +18,18 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "monochrome",
+  -- colorscheme = "rose-pine",
+  -- colorscheme = "catppuccin-mocha",
+  -- colorscheme = "dracula",
+  -- colorscheme = "github_light_high_contrast",
+  -- colorscheme = "tokyonight",
+  -- colorscheme = "everforest",
+  -- colorscheme = "codedark",
+  colorscheme = "github_light",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
-  diagnostics = {
-    virtual_text = true,
-    underline = true,
-  },
+  diagnostics = { virtual_text = true, underline = true },
 
   lsp = {
     -- customize lsp formatting options
